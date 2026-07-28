@@ -1,4 +1,4 @@
-# DevBoard — Fundamentals (UI only)
+# DevBoard — Fundamentals (UI onlyy)
 FROM node:20-alpine
 
 # Create a dedicated non-root user. Running as root inside a container is a
