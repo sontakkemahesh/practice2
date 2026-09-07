@@ -41,7 +41,7 @@ jobs:
                 password: ${{secrets.DOCKERHUB_TOKEN}}
 
             - name: Docker Build and Push
-              user: docker/build-push-action@v7
+              uses: docker/build-push-action@v7
               with:
                 context: ./frontend/Dockerfile.multistage
                 push: true
